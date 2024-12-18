@@ -495,10 +495,10 @@
         <section>
         <h3>Menu de juegos:  </h3>
         <nav>
-            <p> <a href= "../memoria.html" title = "Juego memoria">Juego de memoria</a><p> 
-            <p> <a href= "../semaforo.php" title = "Juego semaforo">Juego del semaforo</a></p>
-            <p> <a href= "../api.html" title = "API">Estrategia circuitos (API)</a></p>
-            <p> <a href = "api.php" title = "Simulador economico php"> Simulador economico php </a></p>
+            <a href= "../memoria.html" title = "Juego memoria">Juego de memoria</a>
+            <a href= "../semaforo.php" title = "Juego semaforo">Juego del semaforo</a>
+            <a href= "../api.html" title = "API">Estrategia circuitos (API)</a>
+            <a href = "api.php" title = "Simulador economico php"> Simulador economico php </a>
         </nav>
 
     </section>
