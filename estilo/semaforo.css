@@ -21,7 +21,7 @@
 div {
     /*color heredado de body*/
     background-color: #000A;
-    border: 0.5em solid #000000;
+    border: 0.6vw solid #000000;
     aspect-ratio: 1;
     border-radius: 50%;
 }
@@ -70,7 +70,7 @@ main + section > h3{
 ol{
     margin: 5% 15%
 }
-/*Especificacion 022(ambas) */
+/*Especificacion 022(todas) */
 main.load div:first-of-type,
 main.load div:nth-of-type(2),
 main.load div:nth-of-type(3),
@@ -92,12 +92,12 @@ main.load div:nth-of-type(4){
     animation-delay: 1.5s;
 }
 
-/*Especificacion 022(ambas) */
-main.outload div:first-of-type,
-main.outload div:nth-of-type(2),
-main.outload div:nth-of-type(3),
-main.outload div:nth-of-type(4) {
-    animation-name:out ;
+/*Especificacion 022(todas) */
+main.unload div:first-of-type,
+main.unload div:nth-of-type(2),
+main.unload div:nth-of-type(3),
+main.unload div:nth-of-type(4) {
+     animation-name:out ;
      animation-duration:0.1s;
      animation-fill-mode: forwards;
 }

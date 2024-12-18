@@ -1,7 +1,7 @@
 /* David Rodriguez Chanca UO289521 */
 /*Colores:
 #333333 = Gris oscuro
-#008000 = Verde oscuro
+#004200 = Verde oscuro
 #004080 = Azul oscuro
 #cccccc = Gris claro
 #ffffff = Blanco */
@@ -74,7 +74,7 @@ article p {
 article h5 {
     font-size: 2rem; 
     margin-bottom: 1rem; 
-    color: #006100; 
+    color: #004200; 
     text-align: center; 
 }
 /*Especificacion 002 */

@@ -8,10 +8,10 @@ class Agenda{
             const article = `
                 <article>
                     <h3> <a href = ${carrera.url} title= Wikipedia target="_blank"> ${carrera.nombreCarrera} </a></h3>
-                    <p><strong>Circuito:</strong> ${carrera.nombreCircuito}</p>
-                    <p><strong>Coordenadas:</strong> ${carrera.latitud}, ${carrera.longitud}</p>
-                    <p><strong>Fecha:</strong> ${carrera.fecha}</p>
-                    <p><strong>Hora:</strong> ${carrera.hora || "No especificada"}</p>
+                    <p>Circuito: ${carrera.nombreCircuito}</p>
+                    <p>Coordenadas: ${carrera.latitud}, ${carrera.longitud}</p>
+                    <p>Fecha: ${carrera.fecha}</p>
+                    <p>Hora: ${carrera.hora || "No especificada"}</p>
                 </article>
             `;
             $("main").append(article);

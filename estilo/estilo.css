@@ -193,9 +193,6 @@ section nav a {
     box-shadow: 1em 1em 1em rgba(0,0,0,.3);
 }
 
-
-
-
 @media(max-width:465px){
     /*Especificacion 002 */
     header + p {

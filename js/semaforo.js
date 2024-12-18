@@ -30,7 +30,7 @@ class Semaforo {
             const boton2 = document.createElement('button'); 
 
             boton1.textContent = "Arrancar semaforo";
-            boton2.textContent = "Parar semaforo";
+            boton2.textContent = "Reaccion";
             
             boton2.disabled = true; 
 
@@ -59,7 +59,7 @@ class Semaforo {
             m.appendChild(texto)
 
             
-            m.classList.remove('outload'); 
+            m.classList.remove('unload'); 
             m.classList.remove('load'); 
             
             boton2.disabled = true;
@@ -82,7 +82,7 @@ class Semaforo {
         endSequence(boton2){
             boton2.disabled = false; 
             const m = document.querySelector('main');             
-            m.classList.add('outload'); 
+            m.classList.add('unload'); 
         }
 
         createRecordForm(){

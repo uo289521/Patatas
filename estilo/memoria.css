@@ -100,9 +100,9 @@ main{
     }
     /*Especificacion 002 */
     article img{
-        /*Redifinicion de height para hacer mas grandes las imagenes en movil */
+        /*Redifinicion de height para ajustar imagenes en movil */
       height: 90%;
-      /*Redifinicion de widht para hacer mas grandes las imagenes en movil */
+      /*Redifinicion de widht para ajustar las imagenes en movil */
       width: 90%;
     }
 
