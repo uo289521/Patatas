@@ -1,0 +1,116 @@
+/* David Rodriguez Chanca UO289521 */
+/*Colores:
+#333333 = Gris oscuro
+#008000 = Verde oscuro
+#004080 = Azul oscuro
+#cccccc = Gris claro
+#ffffff = Blanco */
+/*Especificacion 001 */
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 2em; 
+    margin: 2em auto;
+    max-width: 90%;
+    align-items: center;
+}
+/*Especificacion 004 */
+header + p + h2 + section{
+    padding: initial;
+    background: initial;
+    box-shadow: initial;
+    border-radius: initial;
+    display: initial;
+    width: initial;
+    justify-content: initial;
+    flex-wrap: initial; 
+    gap: initial;
+}
+/*Especificacion 001 */
+section {
+    padding: 2em;
+    background: #ffffff;
+    box-shadow: 0 0.4em 0.6em rgba(0, 0, 0, 0.1);
+    border-radius: 0.5em;
+    display: flex;
+    width: 100%; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    gap: 1em; 
+}
+/*Especificacion 002 */
+main + section {
+    display: flex;
+    gap: 2em; 
+    margin: 2em auto;
+    max-width: 95%;
+    align-items: center;
+}
+
+main section {
+    border: 0.3rem solid #000; 
+
+}
+/*Especificacion 011 */
+article:not(:first-of-type) {
+    background-color: #ffffff; 
+    border-radius: 0.5rem; 
+    max-width: 95%; 
+    padding: 1.5rem; 
+    box-shadow: 0 0.4em 0.6em rgba(0, 0, 0, 1); 
+    text-align: center; 
+    margin: 2rem auto; 
+}
+/*Especificacion 002 */
+article p {
+    font-size: 1.2rem;
+    line-height: 1.5; 
+    margin: 0.5rem 0; 
+    color: #333333; 
+    text-align: center; 
+ 
+}
+/*Especificacion 002 */
+article h5 {
+    font-size: 2rem; 
+    margin-bottom: 1rem; 
+    color: #006100; 
+    text-align: center; 
+}
+/*Especificacion 002 */
+section > h4 {
+    width: 100%; 
+    margin-bottom: 1em;
+    font-size: 1.5rem;
+    color: #004080;
+    text-align: center;
+}
+
+/*Especificacion 001 */
+form {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    border: 0.1em solid #cccccc;
+    border-radius: 0.5em;
+    background-color: #ffffff;
+}
+
+/*Especificacion 001 */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em; 
+}
+
+/*Especificacion 022 */
+form input[type="submit"]:hover {
+    font-size: 1.3rem;
+}
+
+/*Especificacion 002 */
+section + h3{
+    text-align: center;
+}
