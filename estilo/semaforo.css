@@ -21,7 +21,7 @@
 div {
     /*color heredado de body*/
     background-color: #000A;
-    border: 0.5em solid #000000;
+    border: 0.5vw solid #000000;
     aspect-ratio: 1;
     border-radius: 50%;
 }
